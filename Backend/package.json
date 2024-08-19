@@ -2,10 +2,14 @@
   "name": "votingsystem",
   "version": "1.0.0",
   "description": "An online voting system backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --env-file=.env src/index.js"
   },
   "author": "Sameer Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
